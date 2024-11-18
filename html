@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's Plan Our Date!</h1>
+        <form id="date-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="date">Date Available:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="place">Preferred Place:</label>
+            <input type="text" id="place" name="place" required>
+
+            <label for="activity">Activities:</label>
+            <input type="text" id="activity" name="activity" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
